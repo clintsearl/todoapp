@@ -1,0 +1,32 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(41,201,188);
+background-image: radial-gradient(circle,rgba(41,201,188,1) 38%, rgba(68,145,235,1) 100%);
+background-repeat: no-repeat;
+color:red;
+font-family: 'Lora', serif;
+font-size: 2rem;
+}
+
+h1{
+    font-family: 'Staatliches', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;    
+    font-size: 3rem;
+}
+
+header, form{
+    min-height: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+}
+
+form input, form button{
+    margin:.5em;
+    padding:.5rem;
+    border-radius:25px;
+    border:none;
+    font-family: 'Dancing Script', cursive;
+    
+}
